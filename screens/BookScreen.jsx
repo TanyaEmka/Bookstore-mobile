@@ -32,6 +32,7 @@ export default function BookScreen({ route }) {
             <Text style={styles.text}>Издательство: {publisher.name}, {book.publish_year}</Text>
             <Text style={styles.text}>Статус: {status.name}</Text>
         </View>
+        
     );
 }
 
